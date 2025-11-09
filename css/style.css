@@ -87,7 +87,7 @@ body {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #777777;
+  color: #000000;
 }
 
 section {
@@ -596,24 +596,24 @@ button:focus {
   font-size: 13px;
   line-height: 38px;
   padding: 0px 20px;
-  color: #777777;
+  color: #000000;
   z-index: 0;
 }
 
 .book_tabel_item .form-group .input-group .form-control.placeholder {
-  color: #777777;
+  color: #000000;
 }
 
 .book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
-  color: #777777;
+  color: #000000;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
-  color: #777777;
+  color: #000000;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
-  color: #777777;
+  color: #000000;
 }
 
 .book_tabel_item .form-group .input-group .form-control:focus {
@@ -632,7 +632,7 @@ button:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #777777;
+  color: #000000;
   z-index: 2;
 }
 
@@ -654,7 +654,7 @@ button:focus {
   content: "\e874";
   font-family: 'Linearicons-Free';
   font-size: 13px;
-  color: #777777;
+  color: #000000;
   border: 0px;
   top: 0;
   margin-top: 0px;
@@ -838,7 +838,7 @@ button:focus {
 }
 
 .facilities_item {
-  border: 1px solid #777777;
+  border: 1px solid #000000;
   border-radius: 10px;
   background-color: rgba(249, 249, 255, 0.102);
   padding: 31px 40px 37px;
@@ -1137,7 +1137,7 @@ button:focus {
 
 .blog_info .blog_meta li a {
   font: 300 14px/20px "Poppins", sans-serif;
-  color: #777777;
+  color: #000000;
   vertical-align: middle;
   padding-bottom: 12px;
   display: inline-block;
@@ -1721,7 +1721,7 @@ button:focus {
 }
 
 .comments-area .comment {
-  color: #777777;
+  color: #000000;
   margin-bottom: 0px;
 }
 
@@ -1788,7 +1788,7 @@ button:focus {
   border-radius: 0px;
   width: 100%;
   font-size: 14px;
-  color: #777777;
+  color: #000000;
   border: 1px solid transparent;
 }
 
@@ -2366,7 +2366,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777;
+  color: #000000;
 }
 
 .button-area {
@@ -2789,7 +2789,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777;
+  color: #000000;
 }
 
 .ordered-list-alpha li {
@@ -2802,7 +2802,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777;
+  color: #000000;
 }
 
 .ordered-list-roman li {
@@ -2815,7 +2815,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777;
+  color: #000000;
 }
 
 .single-input {
