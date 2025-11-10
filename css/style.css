@@ -1191,6 +1191,9 @@ button:focus {
   padding: 0px 30px;
   background: #fff;
 }
+#footerLE {
+  color: white;
+}
 
 .blog_right_sidebar {
   border: 1px solid #eeeeee;
