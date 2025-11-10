@@ -90,6 +90,7 @@ body {
   color: #000000;
 }
 
+
 section {
   background: #fff;
 }
@@ -558,6 +559,111 @@ button:focus {
   padding: 10px 0px 20px;
 }
 
+.tabela_agendamento_hotel {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabela_agendamento_hotel h2 {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.area_inputs_agendamento {
+  margin-left: -50px;
+}
+
+.item_input_agendamento .form-group {
+  margin-bottom: 0px;
+}
+
+.item_input_agendamento .form-group .input-group {
+  position: relative;
+}
+
+.item_input_agendamento .form-group .input-group .form-control {
+  border: 1px solid #000000;
+  background: transparent;
+  border-radius: 0px;
+  font-size: 13px;
+  line-height: 38px;
+  padding: 0px 20px;
+  color: #000000;
+  z-index: 0;
+}
+
+.item_input_agendamento .form-group .input-group .form-control.placeholder {
+  color: #000000;
+}
+
+.item_input_agendamento .form-group .input-group .form-control:-moz-placeholder {
+  color: #000000;
+}
+
+.item_input_agendamento .form-group .input-group .form-control::-moz-placeholder {
+  color: #000000;
+}
+
+.item_input_agendamento .form-group .input-group .form-control::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.item_input_agendamento .form-group .input-group .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.item_input_agendamento .form-group .input-group .input-group-addon {
+  background: transparent;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #000000;
+  z-index: 2;
+}
+
+.item_input_agendamento .input-group {
+  margin-bottom: 10px;
+}
+
+.item_input_agendamento .nice-select {
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid #000000;
+  font-size: 13px;
+  line-height: 40px;
+  height: 40px;
+  color: #000000;
+}
+
+.item_input_agendamento .nice-select:after {
+  content: "\e874";
+  font-family: 'Linearicons-Free';
+  font-size: 13px;
+  color: #000000;
+  border: 0px;
+  top: 0;
+  margin-top: 0px;
+  right: 20px;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
 /*============= End banner_area css =============*/
 .hotel_booking_table {
 
@@ -573,7 +679,6 @@ button:focus {
 .hotel_booking_table h2 {
   font-size: 24px;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -590,30 +695,30 @@ button:focus {
 }
 
 .book_tabel_item .form-group .input-group .form-control {
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
   background: transparent;
   border-radius: 0px;
   font-size: 13px;
   line-height: 38px;
   padding: 0px 20px;
-  color: #000000;
+  color: #ffffff;
   z-index: 0;
 }
 
 .book_tabel_item .form-group .input-group .form-control.placeholder {
-  color: #000000;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
-  color: #000000;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
-  color: #000000;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
-  color: #000000;
+  color: #ffffff;
 }
 
 .book_tabel_item .form-group .input-group .form-control:focus {
@@ -632,7 +737,7 @@ button:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #000000;
+  color: #ffffff;
   z-index: 2;
 }
 
@@ -643,18 +748,18 @@ button:focus {
 .book_tabel_item .nice-select {
   background: transparent;
   border-radius: 0px;
-  border: 1px solid #2b3146;
+  border: 1px solid #ffffff;
   font-size: 13px;
   line-height: 40px;
   height: 40px;
-  color: #777;
+  color: #ffffff;
 }
 
 .book_tabel_item .nice-select:after {
   content: "\e874";
   font-family: 'Linearicons-Free';
   font-size: 13px;
-  color: #000000;
+  color: #ffffff;
   border: 0px;
   top: 0;
   margin-top: 0px;
@@ -667,11 +772,12 @@ button:focus {
   transform-origin: 0 0;
 }
 
+
 /*=========== breadcrumb_area css =============*/
 .breadcrumb_area {
   position: relative;
   padding: 172px 0px 84px;
-  background: #04091e;
+  background: #000000;
   z-index: 1;
   overflow: hidden;
 }
@@ -798,7 +904,7 @@ button:focus {
 .accomodation_item h5 {
   font-size: 24px;
   line-height: 28px;
-  color: #e0b943;
+  color: #581414;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -1106,7 +1212,7 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background: #e0b943;
+  background: #581414;
 }
 /*============ blog_left_sidebar css ==============*/
 .blog_area {
@@ -1132,7 +1238,7 @@ button:focus {
 }
 
 .blog_info .post_tag a:hover {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_info .blog_meta li a {
@@ -1153,7 +1259,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a:hover {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_post img {
@@ -1175,7 +1281,7 @@ button:focus {
 }
 
 .blog_details h2:hover {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_details p {
@@ -1203,7 +1309,7 @@ button:focus {
 .blog_right_sidebar .widget_title {
   font-size: 18px;
   line-height: 25px;
-  background: #e0b943;
+  background: #581414;
   text-align: center;
   color: #fff;
   padding: 8px 0px;
@@ -1220,7 +1326,7 @@ button:focus {
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
-  background: #e0b943;
+  background: #581414;
 }
 
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
@@ -1293,7 +1399,7 @@ button:focus {
 }
 
 .blog_right_sidebar .author_widget .social_icon a:hover {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
@@ -1316,7 +1422,7 @@ button:focus {
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
@@ -1352,11 +1458,11 @@ button:focus {
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover {
-  border-color: #e0b943;
+  border-color: #581414;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-  color: #e0b943;
+  color: #581414;
 }
 
 .blog_right_sidebar .newsletter_widget {
@@ -1413,7 +1519,7 @@ button:focus {
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background: #e0b943;
+  background: #581414;
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -1445,7 +1551,7 @@ button:focus {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #e0b943;
+  background: #581414;
   color: #fff;
 }
 
@@ -1475,7 +1581,7 @@ button:focus {
 }
 
 .blog-pagination .page-item.active .page-link {
-  background-color: #e0b943;
+  background-color: #581414;
   border-color: transparent;
   color: #fff;
 }
@@ -1567,6 +1673,12 @@ button:focus {
 .single-post-area .thumb .overlay-bg {
   background: rgba(0, 0, 0, 0.8);
 }
+
+.LELE{
+  color: white;
+  
+}
+
 
 .single-post-area .navigation-area {
   border-top: 1px solid #eee;
