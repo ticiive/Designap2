@@ -1570,6 +1570,7 @@ button:focus {
 
 .blog-pagination .page-link {
   border-radius: 0;
+  
 }
 
 .blog-pagination .page-item {
@@ -1593,7 +1594,7 @@ button:focus {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #8a8a8a;
+  color: #000000;
   border: none;
 }
 
