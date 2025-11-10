@@ -133,6 +133,7 @@ button:focus {
 
 .section_title {
   margin-bottom: 75px;
+  
 }
 
 .section_title h2 {
@@ -144,7 +145,7 @@ button:focus {
 .section_title p {
   font-size: 14px;
   line-height: 30px;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 0px;
 }
 
@@ -1374,7 +1375,7 @@ button:focus {
 .blog_right_sidebar .author_widget h4 {
   font-size: 18px;
   line-height: 20px;
-  color: #222222;
+  color: #000000;
   margin-bottom: 0px;
 }
 
@@ -1446,7 +1447,7 @@ button:focus {
 .blog_right_sidebar .post_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;
-  color: #777;
+  color: #000000;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li a p {
@@ -1491,25 +1492,25 @@ button:focus {
 .blog_right_sidebar .newsletter_widget .form-control {
   font-size: 12px;
   line-height: 24px;
-  color: #cccccc;
+  color: #000000;
   border: 1px solid #eeeeee;
   border-left: 0px;
 }
 
 .blog_right_sidebar .newsletter_widget .form-control.placeholder {
-  color: #cccccc;
+  color: #000000;
 }
 
 .blog_right_sidebar .newsletter_widget .form-control:-moz-placeholder {
-  color: #cccccc;
+  color: #000000;
 }
 
 .blog_right_sidebar .newsletter_widget .form-control::-moz-placeholder {
-  color: #cccccc;
+  color: #000000;
 }
 
 .blog_right_sidebar .newsletter_widget .form-control::-webkit-input-placeholder {
-  color: #cccccc;
+  color: #000000;
 }
 
 .blog_right_sidebar .newsletter_widget .form-control:focus {
