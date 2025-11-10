@@ -145,8 +145,11 @@ button:focus {
 .section_title p {
   font-size: 14px;
   line-height: 30px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 0px;
+}
+p.BRANCO{
+  color: white;
 }
 
 #texto{
